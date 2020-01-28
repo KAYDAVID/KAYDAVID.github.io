@@ -2089,6 +2089,10 @@ input, select, textarea {
 			color: #76ddff;
 		}
 
+		.icon:hover {
+			opacity: 0.7;
+		}
+
 /* Image */
 
 	.image {
