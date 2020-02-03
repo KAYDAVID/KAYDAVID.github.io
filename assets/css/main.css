@@ -4001,3 +4001,20 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+/* Rotating Pics */
+#rotating-item-wrapper {
+	position: relative;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	min-height: 500px;
+}
+.rotating-item {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 748px;
+	height: 529px;
+}
