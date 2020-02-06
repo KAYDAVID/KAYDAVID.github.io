@@ -3355,7 +3355,8 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: rgb(46,56,66);
+		background: linear-gradient(180deg, rgba(46,56,66,1) 10%, rgba(23,55,83,1) 35%, rgba(66,68,121,0.9136029411764706) 65%);
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -4001,20 +4002,3 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
-
-/* Rotating Pics */
-#rotating-item-wrapper {
-	position: relative;
-	width: 100%;
-	height: auto;
-	overflow: hidden;
-	min-height: 500px;
-}
-.rotating-item {
-	display: none;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 748px;
-	height: 529px;
-}
