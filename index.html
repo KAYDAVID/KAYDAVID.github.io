@@ -178,20 +178,21 @@
 					<section id="four" class="wrapper style2">
 						<div class="inner">
 							<h4>Send me a Message</h4>
-							<form method="post" action="#">
+							<form action="https://formspree.io/xnqvlglz" method="POST">
 								<div class="row gtr-uniform">
 									<div class="col-6 col-12-xsmall">
-										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+										<input type="text" name="name" id="name" value="" placeholder="Name" class="name" />
 									</div>
 									<div class="col-6 col-12-xsmall">
-										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+										<input type="email" name="_replyto" id="email" value="" placeholder="Email" class="email" />
 									</div>
 									<div class="col-12">
-										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+										<textarea name="message" id="message" placeholder="Enter your message" class="message" rows="6"></textarea>
 									</div>
+									<div class="status"></div>
 									<div class="col-12">
 										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="submit" value="Send" class="primary" placeholder="Send Message" /></li>
 											<li><input type="reset" value="Reset" /></li>
 										</ul>
 									</div>
@@ -237,6 +238,7 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
+			<script src="assets/js/email.js"></script>
 			<script src="assets/js/main.js"></script>
 
 	</body>
