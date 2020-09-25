@@ -44,38 +44,35 @@
 						<header>
 							<h2>MyTones</h2>
 								<a href="https://github.com/KAYDAVID/MyTones" class="button">View on Github</a><br />
-								<a href="#" class="button">Download</a>
+							<!--	<a href="#" class="button">Download</a> -->
 						</header>
 						<section class="wrapper style5">
 							<div class="inner">
 
-								<h3>This Page...</h3>
-								<p>Is under construction.<p>
-								<!--  <p>Is an application I developed of my own volition out of a desire to simplify and semi-automate a repetitive task. The task involved taking data from a website, used for digital class registration, and converting it into a sign in sheet for said class. </p>
+								<h3>This Project...</h3>
 
-								<p>The process was being done manually and near daily by myself or coworkers for the computer classes hosted by the Digital Services Department of the Gail Borden Library. To accomplish this involved a number of steps mostly involving formatting the Excel file into a checklist style format to verify student info and record attendance.  </p>
-
-								<hr />
-
-								<h4>...Had Challenges...</h4>
-								<p>In starting this project the original idea had been to create an Excel Macro using VBA. Being an area of development with which I was unacquainted I started by doing some research. Through this and several attempts to implement some of the specific features of the app it was made clear that due to the technical limitations this was not the direction in which to proceed. From there the decision was made to use C# instead. </p>
-
-								<p>In designing this application I attempted to hardcode as few things as possible. However there were some things that I believed had no way of implementing them without hardcoding. After close to a year of use the library changed the company that provided the class registration website. In doing this the data from the website changed slightly and this application could no longer read the data correctly. This caused a realization that by creating a settings menu for the application I could remove the need to hardcode those things and make the application more flexible and hopefully remove the need for a reprogramming when small changes occured. </p>
-
-								<p>In the process of redesigning I decided that I needed to change the name of the application the name I had originally given it had been intended as only a temporary one till a better one could be found. This had unintentionally not happened. Along with changing the name I decided to challenge myself and develop both a better GUI and my own logo. Stepping out of my more limited artistic boundaries. This process I found some what more challenging than programming and relied on the suggestions and guidance from my artistic acquaintances. </p>
+								<p>My Tones was designed and built as a semester-long project at UIC for CS 398 Professional Development Class which focused on databases, their proper design, their uses, and their challenges. It is a multi-user database application with transactions and rollback capability using music as a theme.<p>
+								<p>In doing this project I learned most importantly about the differences of multi-user application design and the steps needed to be taken to ensure smooth interaction with a database.</p>
+								<p>I learned about the importance of Transactions and their uses in making the interactions smooth and handled correctly. As well as how to rollback a failed interaction so as to keep the system running.  As well as the common practices of cleaning up after a rollback so the user notices little to nothing wrong when possible. As a result of this class I also expanded my knowledge and experience working with visual studio and basic database interactions along with a uniquely interesting experience condensing code.</p>
 
 								<hr />
 
-								<h4>...Used Technologies</h4>
+								<h4>Unique Challenges...</h4>
+								<p>Due to the nature of this project being a school project most of the challenges were created intentionally. I challenged myself by creating a single reusable section of code out of the many repeated but varied sections that dealt with entering the data into the SQL database. Rather than hard code in each separate SQL command for loading the data of different tables from a file I rather created a system to dynamically create the SQL command based on what was found in the file given to the program. This drastically reduced the repeated code but did make for some stubborn bugs when designing this system.</p>
+								<p>The multi-user design was a requirement to work with this the application was designed to allow users to add data to the database. The problems caused by multiple users trying to add data at the same time were simulated and then fixed using standard transactions and rollback procedures.</p>
+								<p>Mockaroo.com was used to mitigate some of the challenges posed when trying to work with databases without real data. The site provided quality realistic test data which enable testing and use of realistic data manipulation and rigorous bug testing.</p>
+
+								<hr />
+
+								<h4>Technologies Used...</h4>
 
 								<ul>
 									<li>C#</li>
-									<li>Git</li>
-									<li>Github</li>
+									<li>SQL</li>
+									<li>MVC</li>
 									<li>Visual Studio</li>
-									<li>Winform Applications</li>
-									<li>Vectr</li>
-								</ul>  -->
+									<li>Mockaroo</li>
+								</ul>
 								<a href="index.html" class="button">Back to Main</a>
 							</div>
 						</section>
