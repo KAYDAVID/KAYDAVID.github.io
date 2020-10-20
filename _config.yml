@@ -1,3 +1,6 @@
 name: David Kay
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
+# Google Analytics
+google_analytics: UA-180648052-1
