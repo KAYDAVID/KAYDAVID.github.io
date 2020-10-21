@@ -3887,6 +3887,56 @@ input, select, textarea {
 		background-attachment: scroll;
 	}
 
+/* My image overlay */
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #193852;
+	border-radius: 50%;
+	border:5px
+	solid #0d2a42;
+	padding: 10px;
+}
+
+.container:hover .overlay {
+  opacity: 50%;
+}
+
+.overlaytext {
+	color: #fff;
+	font-weight: 800;
+	letter-spacing: 0.225em;
+	line-height: 1em;
+	margin: 0 0 1em 0;
+	text-transform: uppercase;
+	font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+	opacity: 0;
+	transition: .5s ease;
+}
+
+.container:hover .overlaytext {
+  opacity: 1;
+}
+
 /* Footer */
 
 	#footer {
